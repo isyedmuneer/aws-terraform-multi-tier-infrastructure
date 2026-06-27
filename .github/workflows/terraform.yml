@@ -10,7 +10,7 @@ jobs:
     name: "Terraform Action"
     runs-on: ubuntu-latest
 
-    # Yeh line pipeline ko batayegi ki sub-folder me ja kar kaam karna hai
+    # Yeh line pipeline ko batayegi ki sub-folder me ja kar terraform chalana hai
     defaults:
       run:
         working-directory: ./aws-terraform-project
